@@ -1,0 +1,154 @@
+==========================================
+JOB FITNESS AI - STEP 4
+==========================================
+
+Loading preprocessed data...
+Data loaded successfully!
+
+==========================================
+DATA INFORMATION
+==========================================
+X_train Shape: (1600, 90)
+X_test Shape: (400, 90)
+y_train Shape: (1600,)
+y_test Shape: (400,)
+
+==========================================
+CAREER DISTRIBUTION
+==========================================
+
+Training Data:
+Recommended_Job
+Database Administrator       100
+Cyber Security Analyst       100
+Ai Engineer                  100
+Data Analyst                 100
+Full Stack Developer         100
+Java Developer               100
+Devops Engineer              100
+Data Scientist               100
+Python Developer             100
+Machine Learning Engineer    100
+Backend Developer            100
+Ui/Ux Designer               100
+Frontend Developer           100
+Software Developer           100
+Qa Engineer                  100
+Cloud Engineer               100
+Name: count, dtype: int64
+
+Number of Career Classes: 16
+
+==========================================
+CREATING RANDOM FOREST MODEL
+==========================================
+Random Forest model created successfully!
+
+==========================================
+MODEL TRAINING
+==========================================
+Random Forest training completed!
+
+==========================================
+MAKING PREDICTIONS
+==========================================
+Predictions generated successfully!
+
+==========================================
+MODEL ACCURACY
+==========================================
+Accuracy: 0.97
+Accuracy Percentage: 97.0 %
+
+==========================================
+CLASSIFICATION REPORT
+==========================================
+                           precision    recall  f1-score   support
+
+              Ai Engineer       0.92      0.92      0.92        25
+        Backend Developer       1.00      0.92      0.96        25
+           Cloud Engineer       1.00      0.96      0.98        25
+   Cyber Security Analyst       1.00      1.00      1.00        25
+             Data Analyst       1.00      1.00      1.00        25
+           Data Scientist       1.00      1.00      1.00        25
+   Database Administrator       1.00      1.00      1.00        25
+          Devops Engineer       0.96      1.00      0.98        25
+       Frontend Developer       0.89      0.96      0.92        25
+     Full Stack Developer       1.00      1.00      1.00        25
+           Java Developer       1.00      1.00      1.00        25
+Machine Learning Engineer       0.92      0.92      0.92        25
+         Python Developer       1.00      1.00      1.00        25
+              Qa Engineer       0.96      1.00      0.98        25
+       Software Developer       0.92      0.96      0.94        25
+           Ui/Ux Designer       0.96      0.88      0.92        25
+
+                 accuracy                           0.97       400
+                macro avg       0.97      0.97      0.97       400
+             weighted avg       0.97      0.97      0.97       400
+
+
+==========================================
+CONFUSION MATRIX
+==========================================
+[[23  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0]
+ [ 0 23  0  0  0  0  0  0  0  0  0  0  0  0  2  0]
+ [ 0  0 24  0  0  0  0  1  0  0  0  0  0  0  0  0]
+ [ 0  0  0 25  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0 25  0  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0 25  0  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0 25  0  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0 25  0  0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0 24  0  0  0  0  0  0  1]
+ [ 0  0  0  0  0  0  0  0  0 25  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0 25  0  0  0  0  0]
+ [ 2  0  0  0  0  0  0  0  0  0  0 23  0  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0 25  0  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0 25  0  0]
+ [ 0  0  0  0  0  0  0  0  0  0  0  0  0  1 24  0]
+ [ 0  0  0  0  0  0  0  0  3  0  0  0  0  0  0 22]]
+
+==========================================
+FEATURE IMPORTANCE
+==========================================
+Total Feature Importances: 90
+
+Top 20 Important Features:
+Feature 35 Importance: 0.0409
+Feature 47 Importance: 0.0382
+Feature 61 Importance: 0.038
+Feature 62 Importance: 0.0358
+Feature 40 Importance: 0.0336
+Feature 56 Importance: 0.0306
+Feature 69 Importance: 0.0304
+Feature 46 Importance: 0.0294
+Feature 52 Importance: 0.0294
+Feature 45 Importance: 0.0257
+Feature 51 Importance: 0.0256
+Feature 34 Importance: 0.0256
+Feature 36 Importance: 0.0255
+Feature 63 Importance: 0.0253
+Feature 53 Importance: 0.0246
+Feature 60 Importance: 0.0237
+Feature 41 Importance: 0.0197
+Feature 50 Importance: 0.018
+Feature 66 Importance: 0.0175
+Feature 71 Importance: 0.0174
+
+==========================================
+MODEL SAVED
+==========================================
+Model saved at: models\job_fitness_model.pkl
+
+==========================================
+STEP 4 COMPLETED SUCCESSFULLY!
+==========================================
+Algorithm: Random Forest Classifier
+Training Samples: 1600
+Testing Samples: 400
+ML Features: 90
+Career Classes: 16
+Accuracy: 97.0 %
+
+Saved Model: models/job_fitness_model.pkl
+
+Ready for the next stage!

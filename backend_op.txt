@@ -1,0 +1,484 @@
+health :
+{
+  "status": "ok"
+}
+
+
+careers/search :
+{
+  "matched": true,
+  "query": "Data Analyst",
+  "occupations": [
+    {
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/"
+    },
+    {
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.01/"
+    },
+    {
+      "code": "13-2099.01",
+      "title": "Financial Quantitative Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.01/"
+    },
+    {
+      "code": "15-1243.00",
+      "title": "Database Architects",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.00/"
+    },
+    {
+      "code": "13-2099.04",
+      "title": "Fraud Examiners, Investigators and Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.04/"
+    },
+    {
+      "code": "15-2041.00",
+      "title": "Statisticians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2041.00/"
+    },
+    {
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/"
+    },
+    {
+      "code": "43-9111.00",
+      "title": "Statistical Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/43-9111.00/"
+    },
+    {
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2099.01/"
+    },
+    {
+      "code": "19-3022.00",
+      "title": "Survey Researchers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/"
+    },
+    {
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-1029.01/"
+    },
+    {
+      "code": "17-3027.00",
+      "title": "Mechanical Engineering Technologists and Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/17-3027.00/"
+    },
+    {
+      "code": "15-1221.00",
+      "title": "Computer and Information Research Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1221.00/"
+    },
+    {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.02/"
+    },
+    {
+      "code": "15-1243.01",
+      "title": "Data Warehousing Specialists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.01/"
+    },
+    {
+      "code": "33-3021.06",
+      "title": "Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/33-3021.06/"
+    },
+    {
+      "code": "19-4099.01",
+      "title": "Quality Control Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4099.01/"
+    },
+    {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1211.00/"
+    },
+    {
+      "code": "13-1111.00",
+      "title": "Management Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1111.00/"
+    },
+    {
+      "code": "19-2021.00",
+      "title": "Atmospheric and Space Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2021.00/"
+    }
+  ]
+}
+
+predict career :
+
+{
+  "recommended_career": "Data Analyst",
+  "top_careers": [
+    {
+      "career": "Data Analyst",
+      "model_probability": 90
+    },
+    {
+      "career": "Data Scientist",
+      "model_probability": 8
+    },
+    {
+      "career": "Python Developer",
+      "model_probability": 1.5
+    }
+  ]
+}
+
+career-skills:
+
+{
+  "matched": true,
+  "selection_required": true,
+  "message": "Several occupations matched. Select the intended occupation using its O*NET code.",
+  "occupations": [
+    {
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/"
+    },
+    {
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.01/"
+    },
+    {
+      "code": "13-2099.01",
+      "title": "Financial Quantitative Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.01/"
+    },
+    {
+      "code": "15-1243.00",
+      "title": "Database Architects",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.00/"
+    },
+    {
+      "code": "13-2099.04",
+      "title": "Fraud Examiners, Investigators and Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.04/"
+    },
+    {
+      "code": "15-2041.00",
+      "title": "Statisticians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2041.00/"
+    },
+    {
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/"
+    },
+    {
+      "code": "43-9111.00",
+      "title": "Statistical Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/43-9111.00/"
+    },
+    {
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2099.01/"
+    },
+    {
+      "code": "19-3022.00",
+      "title": "Survey Researchers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/"
+    },
+    {
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-1029.01/"
+    },
+    {
+      "code": "17-3027.00",
+      "title": "Mechanical Engineering Technologists and Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/17-3027.00/"
+    },
+    {
+      "code": "15-1221.00",
+      "title": "Computer and Information Research Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1221.00/"
+    },
+    {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.02/"
+    },
+    {
+      "code": "15-1243.01",
+      "title": "Data Warehousing Specialists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.01/"
+    },
+    {
+      "code": "33-3021.06",
+      "title": "Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/33-3021.06/"
+    },
+    {
+      "code": "19-4099.01",
+      "title": "Quality Control Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4099.01/"
+    },
+    {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1211.00/"
+    },
+    {
+      "code": "13-1111.00",
+      "title": "Management Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1111.00/"
+    },
+    {
+      "code": "19-2021.00",
+      "title": "Atmospheric and Space Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2021.00/"
+    }
+  ]
+}
+
+career-fitness:
+
+{
+  "matched": true,
+  "selection_required": true,
+  "message": "Several occupations matched. Select the intended occupation using its O*NET code.",
+  "occupations": [
+    {
+      "code": "15-2051.00",
+      "title": "Data Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/"
+    },
+    {
+      "code": "15-2051.01",
+      "title": "Business Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.01/"
+    },
+    {
+      "code": "13-2099.01",
+      "title": "Financial Quantitative Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.01/"
+    },
+    {
+      "code": "15-1243.00",
+      "title": "Database Architects",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.00/"
+    },
+    {
+      "code": "13-2099.04",
+      "title": "Fraud Examiners, Investigators and Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.04/"
+    },
+    {
+      "code": "15-2041.00",
+      "title": "Statisticians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2041.00/"
+    },
+    {
+      "code": "19-4061.00",
+      "title": "Social Science Research Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/"
+    },
+    {
+      "code": "43-9111.00",
+      "title": "Statistical Assistants",
+      "href": "https://api-v2.onetcenter.org/online/occupations/43-9111.00/"
+    },
+    {
+      "code": "15-2099.01",
+      "title": "Bioinformatics Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2099.01/"
+    },
+    {
+      "code": "19-3022.00",
+      "title": "Survey Researchers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/"
+    },
+    {
+      "code": "19-1029.01",
+      "title": "Bioinformatics Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-1029.01/"
+    },
+    {
+      "code": "17-3027.00",
+      "title": "Mechanical Engineering Technologists and Technicians",
+      "href": "https://api-v2.onetcenter.org/online/occupations/17-3027.00/"
+    },
+    {
+      "code": "15-1221.00",
+      "title": "Computer and Information Research Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1221.00/"
+    },
+    {
+      "code": "15-2051.02",
+      "title": "Clinical Data Managers",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.02/"
+    },
+    {
+      "code": "15-1243.01",
+      "title": "Data Warehousing Specialists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.01/"
+    },
+    {
+      "code": "33-3021.06",
+      "title": "Intelligence Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/33-3021.06/"
+    },
+    {
+      "code": "19-4099.01",
+      "title": "Quality Control Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-4099.01/"
+    },
+    {
+      "code": "15-1211.00",
+      "title": "Computer Systems Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/15-1211.00/"
+    },
+    {
+      "code": "13-1111.00",
+      "title": "Management Analysts",
+      "href": "https://api-v2.onetcenter.org/online/occupations/13-1111.00/"
+    },
+    {
+      "code": "19-2021.00",
+      "title": "Atmospheric and Space Scientists",
+      "href": "https://api-v2.onetcenter.org/online/occupations/19-2021.00/"
+    }
+  ]
+}
+
+assess :
+{
+  "path": "career_predicted",
+  "career": "Data Analyst",
+  "prediction": {
+    "recommended_career": "Data Analyst",
+    "top_careers": [
+      {
+        "career": "Data Analyst",
+        "model_probability": 90
+      },
+      {
+        "career": "Data Scientist",
+        "model_probability": 8
+      },
+      {
+        "career": "Python Developer",
+        "model_probability": 1.5
+      }
+    ]
+  },
+  "occupation_result": {
+    "matched": true,
+    "selection_required": true,
+    "message": "Several occupations matched. Select the intended occupation using its O*NET code.",
+    "occupations": [
+      {
+        "code": "15-2051.00",
+        "title": "Data Scientists",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.00/"
+      },
+      {
+        "code": "15-2051.01",
+        "title": "Business Intelligence Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.01/"
+      },
+      {
+        "code": "13-2099.01",
+        "title": "Financial Quantitative Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.01/"
+      },
+      {
+        "code": "15-1243.00",
+        "title": "Database Architects",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.00/"
+      },
+      {
+        "code": "13-2099.04",
+        "title": "Fraud Examiners, Investigators and Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/13-2099.04/"
+      },
+      {
+        "code": "15-2041.00",
+        "title": "Statisticians",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-2041.00/"
+      },
+      {
+        "code": "19-4061.00",
+        "title": "Social Science Research Assistants",
+        "href": "https://api-v2.onetcenter.org/online/occupations/19-4061.00/"
+      },
+      {
+        "code": "43-9111.00",
+        "title": "Statistical Assistants",
+        "href": "https://api-v2.onetcenter.org/online/occupations/43-9111.00/"
+      },
+      {
+        "code": "15-2099.01",
+        "title": "Bioinformatics Technicians",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-2099.01/"
+      },
+      {
+        "code": "19-3022.00",
+        "title": "Survey Researchers",
+        "href": "https://api-v2.onetcenter.org/online/occupations/19-3022.00/"
+      },
+      {
+        "code": "19-1029.01",
+        "title": "Bioinformatics Scientists",
+        "href": "https://api-v2.onetcenter.org/online/occupations/19-1029.01/"
+      },
+      {
+        "code": "17-3027.00",
+        "title": "Mechanical Engineering Technologists and Technicians",
+        "href": "https://api-v2.onetcenter.org/online/occupations/17-3027.00/"
+      },
+      {
+        "code": "15-1221.00",
+        "title": "Computer and Information Research Scientists",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-1221.00/"
+      },
+      {
+        "code": "15-2051.02",
+        "title": "Clinical Data Managers",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-2051.02/"
+      },
+      {
+        "code": "15-1243.01",
+        "title": "Data Warehousing Specialists",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-1243.01/"
+      },
+      {
+        "code": "33-3021.06",
+        "title": "Intelligence Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/33-3021.06/"
+      },
+      {
+        "code": "19-4099.01",
+        "title": "Quality Control Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/19-4099.01/"
+      },
+      {
+        "code": "15-1211.00",
+        "title": "Computer Systems Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/15-1211.00/"
+      },
+      {
+        "code": "13-1111.00",
+        "title": "Management Analysts",
+        "href": "https://api-v2.onetcenter.org/online/occupations/13-1111.00/"
+      },
+      {
+        "code": "19-2021.00",
+        "title": "Atmospheric and Space Scientists",
+        "href": "https://api-v2.onetcenter.org/online/occupations/19-2021.00/"
+      }
+    ]
+  },
+  "fitness": null
+}

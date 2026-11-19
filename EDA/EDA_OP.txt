@@ -1,0 +1,165 @@
+ataset Loaded Successfully!
+
+==============================
+DATASET SHAPE
+==============================
+Rows: 2000
+Columns: 17
+
+==============================
+COLUMN NAMES
+==============================
+['Age', 'Gender', 'Education', 'Degree', 'CGPA', 'Experience_Level', 'Years_of_Experience', 'Programming_Languages', 'Skills', 'Certifications', 'Interest', 'Soft_Skills', 'Preferred_Work_Mode', 'Resume_Score', 'Coding_Test_Score', 'Interview_Score', 'Recommended_Job']
+
+==============================
+DATA TYPES
+==============================
+Age                        int64
+Gender                       str
+Education                    str
+Degree                       str
+CGPA                     float64
+Experience_Level             str
+Years_of_Experience        int64
+Programming_Languages        str
+Skills                       str
+Certifications               str
+Interest                     str
+Soft_Skills                  str
+Preferred_Work_Mode          str
+Resume_Score               int64
+Coding_Test_Score          int64
+Interview_Score            int64
+Recommended_Job              str
+dtype: object
+
+==============================
+FIRST 5 RECORDS
+==============================
+   Age  Gender         Education            Degree  CGPA  ... Preferred_Work_Mode  Resume_Score Coding_Test_Score Interview_Score       Recommended_Job
+0   22   Other  Computer Science  Computer Science  6.33  ...              Hybrid            53                63              45        Cloud Engineer
+1   25   Other  Computer Science  Computer Science  8.24  ...              Onsite            75                57              61  Full Stack Developer
+2   23   Other               Mca               Mca  6.47  ...              Hybrid            48                42              54          Data Analyst
+3   30   Other               Bca               Bca  9.97  ...              Hybrid            79                83              95           Qa Engineer
+4   26  Female            B.Tech            B.Tech  5.76  ...              Remote            50                53              62        Java Developer
+
+[5 rows x 17 columns]
+
+==============================
+MISSING VALUES
+==============================
+Age                      0
+Gender                   0
+Education                0
+Degree                   0
+CGPA                     0
+Experience_Level         0
+Years_of_Experience      0
+Programming_Languages    0
+Skills                   0
+Certifications           0
+Interest                 0
+Soft_Skills              0
+Preferred_Work_Mode      0
+Resume_Score             0
+Coding_Test_Score        0
+Interview_Score          0
+Recommended_Job          0
+dtype: int64
+
+Total Missing Values: 0
+
+==============================
+DUPLICATE RECORDS
+==============================
+Duplicate Rows: 0
+
+==============================
+NUMERICAL STATISTICS
+==============================
+               Age         CGPA  Years_of_Experience  Resume_Score  Coding_Test_Score  Interview_Score
+count  2000.000000  2000.000000           2000.00000   2000.000000        2000.000000      2000.000000
+mean     25.434500     7.742165              2.10950     64.691000          65.143500        64.897500
+std       3.744692     1.318276              2.43731     12.772983          12.964526        12.889727
+min      20.000000     5.500000              0.00000     32.000000          30.000000        30.000000
+25%      23.000000     6.587500              0.00000     56.000000          56.000000        55.000000
+50%      25.000000     7.735000              1.00000     65.000000          65.000000        65.000000
+75%      28.000000     8.910000              4.00000     74.000000          74.000000        74.000000
+max      35.000000    10.000000              8.00000    100.000000         100.000000       100.000000
+
+==============================
+UNIQUE VALUES
+==============================
+
+ Age
+Number of Unique Values: 16
+
+ Gender
+Number of Unique Values: 3
+
+ Education
+Number of Unique Values: 10
+
+ Degree
+Number of Unique Values: 10
+
+ CGPA
+Number of Unique Values: 442
+
+ Experience_Level
+Number of Unique Values: 4
+
+ Years_of_Experience
+Number of Unique Values: 9
+
+ Programming_Languages
+Number of Unique Values: 88
+
+ Skills
+Number of Unique Values: 508
+
+ Certifications
+Number of Unique Values: 8
+
+ Interest
+Number of Unique Values: 9
+
+ Soft_Skills
+Number of Unique Values: 368
+
+ Preferred_Work_Mode
+Number of Unique Values: 3
+
+ Resume_Score
+Number of Unique Values: 66
+
+ Coding_Test_Score
+Number of Unique Values: 68
+
+ Interview_Score
+Number of Unique Values: 70
+
+ Recommended_Job
+Number of Unique Values: 16
+
+==============================
+CAREER DISTRIBUTION
+==============================
+Recommended_Job
+Cloud Engineer               125
+Full Stack Developer         125
+Data Analyst                 125
+Qa Engineer                  125
+Java Developer               125
+Cyber Security Analyst       125
+Frontend Developer           125
+Data Scientist               125
+Ui/Ux Designer               125
+Database Administrator       125
+Software Developer           125
+Backend Developer            125
+Machine Learning Engineer    125
+Python Developer             125
+Ai Engineer                  125
+Devops Engineer              125
+Name: count, dtype: int64

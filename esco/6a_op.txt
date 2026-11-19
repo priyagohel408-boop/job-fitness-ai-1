@@ -1,0 +1,102 @@
+=========================================
+JOB FITNESS AI - STEP 6
+ESCO CAREER + SKILL RELATIONSHIPS
+==========================================
+
+Search career: data analyst
+
+ESCO CAREER RESULTS
+==========================================
+1. data analyst
+2. call centre analyst
+3. meter reader
+4. statistician
+5. securities analyst
+6. ICT system analyst
+7. investment analyst
+8. ICT disaster recovery analyst
+9. meteorologist
+10. credit analyst
+
+Select career number: 1
+
+Selected Career: data analyst
+ESCO URI: http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2
+
+==========================================
+ESCO SKILLS + RELATIONSHIPS
+==========================================
+1. normalise data [Essential]
+2. unstructured data [Essential]
+3. visual presentation techniques [Essential]
+4. data mining [Essential]
+5. manage data [Essential]
+6. execute analytical mathematical calculations [Essential]
+7. information structure [Essential]
+8. collect ICT data [Essential]
+9. data science [Essential]
+10. information extraction [Essential]
+11. query languages [Essential]
+12. information categorisation [Essential]
+13. data visualisation software [Essential]
+14. define data quality criteria [Essential]
+15. use databases [Essential]
+16. digital data processing [Essential]
+17. data engineering [Essential]
+18. documentation types [Essential]
+19. integrate ICT data [Essential]
+20. use data processing techniques [Essential]
+21. apply statistical analysis techniques [Essential]
+22. data quality assessment [Essential]
+23. data models [Essential]
+24. information confidentiality [Essential]
+25. business analytics [Essential]
+26. statistics [Essential]
+27. resource description framework query language [Essential]
+28. interpret current data [Essential]
+29. data ethics [Essential]
+30. implement data quality processes [Essential]
+31. perform data cleansing [Essential]
+32. business intelligence [Essential]
+33. analyse big data [Essential]
+34. perform data mining [Essential]
+35. handle data samples [Essential]
+36. establish data processes [Essential]
+37. manage cloud data and storage [Optional]
+38. store digital data and systems [Optional]
+39. gather data for forensic purposes [Optional]
+40. database [Optional]
+41. image recognition [Optional]
+42. cloud technologies [Optional]
+43. XQuery [Optional]
+44. game theory [Optional]
+45. LINQ [Optional]
+46. deliver visual presentation of data [Optional]
+47. online analytical processing [Optional]
+48. healthcare analytics [Optional]
+49. information architecture [Optional]
+50. statistical modeling techniques [Optional]
+51. marketing analytics [Optional]
+52. Hadoop [Optional]
+53. web analytics [Optional]
+54. multidisciplinary research [Optional]
+55. MDX [Optional]
+56. research design [Optional]
+57. manage data collection systems [Optional]
+58. LDAP [Optional]
+59. manage quantitative data [Optional]
+60. report analysis results [Optional]
+61. data storage [Optional]
+62. social network analysis [Optional]
+63. create data models [Optional]
+64. N1QL [Optional]
+65. SPARQL [Optional]
+66. use spreadsheets software [Optional]
+67. make data-driven decisions [Optional]
+
+Total Skills: 67
+Essential Skills: 36
+Optional Skills: 31
+Unknown Relationship: 0
+
+Step 6 completed successfully!

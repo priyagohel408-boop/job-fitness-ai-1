@@ -1,0 +1,47 @@
+
+==========================================
+JOB FITNESS AI - STEP 5
+NEW STUDENT CAREER PREDICTION
+==========================================
+
+Model and preprocessors loaded successfully!
+
+Numerical Features:
+['Age', 'CGPA', 'Years_of_Experience', 'Resume_Score', 'Coding_Test_Score', 'Interview_Score']
+
+Categorical Features:
+['Gender', 'Education', 'Degree', 'Experience_Level', 'Interest', 'Preferred_Work_Mode']
+
+Multi-value Features:
+['Programming_Languages', 'Skills', 'Certifications', 'Soft_Skills']
+
+==========================================
+NEW STUDENT DATA
+==========================================
+   Age Gender Education                Degree  CGPA  ...                     Soft_Skills  Preferred_Work_Mode Resume_Score Coding_Test_Score Interview_Score
+0   20   Male   Diploma  Computer Engineering   8.2  ...  Communication, Problem Solving               Hybrid           75                80              78
+
+[1 rows x 16 columns]
+
+==========================================
+PROCESSED STUDENT DATA
+==========================================
+Processed Input Shape: (1, 90)
+
+==========================================
+CAREER PREDICTION
+==========================================
+Recommended Career: Data Analyst
+
+==========================================
+TOP 3 CAREER RECOMMENDATIONS
+==========================================
+Data Analyst -> 90.0 %
+Data Scientist -> 8.0 %
+Python Developer -> 1.5 %
+
+==========================================
+PREDICTION COMPLETED
+==========================================
+Best Career: Data Analyst
+Top Alternative Careers: ['Data Scientist', 'Python Developer']
