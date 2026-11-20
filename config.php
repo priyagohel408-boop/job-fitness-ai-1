@@ -2,7 +2,7 @@
 // config.php - the ONLY place you change backend settings.
 if (session_status() === PHP_SESSION_NONE) { session_start(); }
 
-define('API_BASE_URL', 'http://127.0.0.1:8000');
+define('API_BASE_URL', 'https://job-fitness-ai-1.onrender.com');
 define('API_TIMEOUT', 60);
 
 define('ENDPOINT_PREDICT',       '/predict-career');
